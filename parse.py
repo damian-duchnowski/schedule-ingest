@@ -26,6 +26,7 @@ def check_days(year, month):
 
 
 def parse_dates():
+    """Calculates the date for each entry and performs checks."""
     dates = []
     if check_days(datetime.today().year, sys.argv[2]):
         with open(sys.argv[1], 'r') as f:
