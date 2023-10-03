@@ -21,6 +21,6 @@ six==1.16.0
 ticktick-py==2.0.1
 toml==0.10.2
 typing-extensions==3.10.0.2
-urllib3==1.26.7
+urllib3==1.26.17
 wrapt==1.13.2
 yapf==0.31.0
